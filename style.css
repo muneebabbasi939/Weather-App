@@ -90,3 +90,56 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media only screen and (max-width: 425px) {
+    .search input{
+        padding: 5px 20px;
+        height: 50px;
+        width: 20px;
+    }
+    .search button{
+        margin-right: -10px;
+        width: 40px;
+        height: 50px;
+    }
+    .search button img{
+        width: 15px;
+    }
+    .details{
+        padding: 0;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .col img{
+        width: 30px;
+    }
+    .humidity,.wind{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .search input{
+        padding: 5px 20px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .search button{
+        margin-right: -20px;
+        width: 30px;
+        height: 35px;
+    }
+    .search button img{
+        width: 15px;
+    }
+    .details{
+        padding: 0;
+        gap: 5px;
+        margin-top: 22px;
+    }
+    .col img{
+        width: 20px;
+    }
+    .humidity,.wind{
+        font-size: 12px;
+    }
+}
